@@ -1,0 +1,195 @@
+html ,body{
+	margin:0!important;
+	padding: 0!important;
+	background: #d0e9ee;
+	overflow-x: hidden;
+}
+#topbar{
+    border-bottom: 2px solid #9b9b9b;
+    height: 100px;
+}
+.logo-wrapper{
+    margin-top: -30px;
+}
+.input-group{
+    width: 95%;
+    margin-top: 12px;
+}
+#navbar-section{
+	margin-bottom: 24px;
+}
+#topbar .form-control{
+	height: 50px;
+	font-size: 20px;
+}
+#topbar .btn-default{
+    height: 50px;
+    width: 259px;
+    font-size: 20px;
+    background: #fff4f3;
+}
+.topbar-social-icons{
+margin-top: 18px;
+    font-size: 25px;
+
+}
+.topbar-social-icons .fa{
+	padding: 0 5px;
+}
+/*navbr section*/
+#navbar-section ul{
+	list-style: none;
+	clear: both;
+}
+#navbar-section ul li{
+    clear: both;
+    display: inline;
+    padding: 27px 31px;
+    background: #fff4f3;
+    margin-right: 26px;
+
+}
+#navbar-section ul li a{
+color: black;
+font-size: 18px;
+
+} 
+/*banner*/
+#banner{
+background: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+
+}
+.banner-content{
+    position: absolute;
+    left: 34%;
+    top: 22%;
+    text-align: center;
+}
+.banner-content h1{
+   font-size: 66px;
+    clear: both;
+
+    text-transform: uppercase;
+    color:black;
+}
+.banner-content .btn-default{
+	    width: 220px;
+    height: 65px;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+/*products row*/
+.product-col{
+    background: #fff;
+    border-radius: 40px;
+    margin-top: 30px;
+    padding: 40px 20px;
+    height: 364px;
+}
+.product-col .btn-primary{
+
+    color: #fff;
+    background-color: #303030;
+    border-color: #1b1b1b;
+    margin-top: 20px;
+    width: 79px;
+    height: 34px;
+
+}
+.product-col img{
+	border-radius: 40px;
+}
+.product-col span{
+	padding: 0 10px;
+	font-size: 18px;
+}
+.product-col h4{
+	
+	font-size: 20px;
+	font-weight: bold
+}
+#product-title{
+	  border-bottom: 2px solid #9b9b9b;
+	  margin: 40px 0;
+}
+#product-title h2{
+	 
+	  margin-bottom:30px;
+}
+@media only screen and (max-width: 600px) {
+	#banner{
+		width: 100%;
+	}
+.banner-content {
+    position: absolute;
+    left: 19%;
+    top: 35%;
+    text-align: center;
+}
+.banner-content h1 {
+    font-size: 37px;
+}
+
+#topbar .btn-default {
+    height: 29px;
+    width: 63px;
+    font-size: 12px;
+    background: #fff4f3;
+}
+#topbar .form-control {
+    height: 29px;
+    font-size: 12px;
+}
+
+.topbar-social-icons {
+    margin-top: 18px;
+    font-size: 25px;
+    display: none;
+}
+#navbar-section .container{
+	width: 100%;
+}
+#navbar-section ul {
+    list-style: none;
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+#navbar-section ul li {
+    clear: both;
+    display: inline;
+    padding: 11px 3px;
+    background: #fff4f3;
+    margin-right: 0;
+}
+#navbar-section ul li a {
+    color: black;
+    font-size: 11px;
+}
+.logo-wrapper img{
+	float: left!important;
+}
+.input-group {
+    width: 100%;
+    margin-top: 22px;
+}
+.product-col {
+    background: #fff;
+    border-radius: 40px;
+    margin-top: 30px;
+    padding: 40px 20px;
+    height: 357px;
+}
+.banner-content .btn-default {
+    width: 159px;
+    height: 46px;
+    font-size: 16px;
+    /* text-transform: uppercase; */
+}
+}
